@@ -95,6 +95,11 @@
     cursor: pointer;
 }
 
+#main_div_a_block {
+    display: flex;
+    flex-direction: row;
+}
+
 .main_a:hover {background-color: rgba(14,0,5,0.83)}
 
 .button:active {
@@ -181,7 +186,3 @@
     color: white;
 }
 
-#main_div_a_block {
-    display: flex;
-    flex-direction: row;
-}
